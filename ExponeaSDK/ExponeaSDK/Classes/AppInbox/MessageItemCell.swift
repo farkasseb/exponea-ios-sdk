@@ -6,7 +6,7 @@
 //  Copyright © 2022 Exponea. All rights reserved.
 //
 
-import UIKit
+public import UIKit
 
 public class MessageItemCell: UITableViewCell {
 

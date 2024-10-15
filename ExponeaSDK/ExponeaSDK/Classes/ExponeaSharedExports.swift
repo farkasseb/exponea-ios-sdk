@@ -11,7 +11,7 @@
  When using Carthage/SPM, we'll depend on module/framework ExponeaSDKShared.
  */
 #if canImport(ExponeaSDKShared)
-import ExponeaSDKShared
+public import ExponeaSDKShared
 
 /**
  We need to re-export some types from ExponeaSDKShared to general public when using SPM/Carthage

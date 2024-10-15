@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import UserNotifications
+public import UserNotifications
 #if canImport(ExponeaSDKShared)
 import ExponeaSDKShared
 #endif

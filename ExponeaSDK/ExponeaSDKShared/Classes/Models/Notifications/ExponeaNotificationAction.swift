@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import UserNotifications
+public import UserNotifications
 
 public struct ExponeaNotificationAction: Codable {
     public let title: String

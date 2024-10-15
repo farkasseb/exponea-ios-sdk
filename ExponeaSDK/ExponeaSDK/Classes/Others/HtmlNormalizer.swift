@@ -3,7 +3,7 @@
 // Copyright (c) 2022 Exponea. All rights reserved.
 //
 
-import Foundation
+public import Foundation
 import SwiftSoup
 
 public class HtmlNormalizer {

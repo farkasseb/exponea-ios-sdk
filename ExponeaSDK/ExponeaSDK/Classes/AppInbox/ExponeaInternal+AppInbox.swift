@@ -3,7 +3,7 @@
 //
 
 import Foundation
-import UIKit
+public import UIKit
 
 extension ExponeaInternal {
 

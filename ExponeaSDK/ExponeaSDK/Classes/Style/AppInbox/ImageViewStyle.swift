@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import UIKit
+public import UIKit
 
 public class ImageViewStyle {
     var visible: Bool?

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import UIKit
+public import UIKit
 
 public class StyledAppInboxProvider: DefaultAppInboxProvider {
     private let appInboxStyle: AppInboxStyle

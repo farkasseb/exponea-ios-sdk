@@ -6,8 +6,8 @@
 //  Copyright © 2018 Exponea. All rights reserved.
 //
 
-import Foundation
-import UserNotifications
+public import Foundation
+public import UserNotifications
 
 extension ExponeaInternal {
     /// Adds new events to a customer. All events will be stored into coredata

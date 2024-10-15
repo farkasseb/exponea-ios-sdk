@@ -8,9 +8,9 @@
 
 import Foundation
 #if canImport(ExponeaSDKObjC)
-internal import ExponeaSDKObjC
+import ExponeaSDKObjC
 #endif
-import UIKit
+public import UIKit
 
 extension Exponea {
     /// Shared instance of ExponeaSDK.

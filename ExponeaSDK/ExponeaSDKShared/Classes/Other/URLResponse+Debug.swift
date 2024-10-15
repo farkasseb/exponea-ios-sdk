@@ -6,7 +6,7 @@
 //  Copyright © 2018 Exponea. All rights reserved.
 //
 
-import Foundation
+public import Foundation
 
 public extension URLResponse {
     func description(with data: Data?, error: Error?) -> String {

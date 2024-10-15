@@ -6,7 +6,7 @@
 //  Copyright © 2024 Exponea. All rights reserved.
 //
 
-import UIKit
+public import UIKit
 import ImageIO
 
 private func < <T: Comparable>(lhs: T?, rhs: T?) -> Bool {

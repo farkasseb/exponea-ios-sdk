@@ -6,7 +6,7 @@
 //  Copyright © 2019 Exponea. All rights reserved.
 //
 
-import Foundation
+public import Foundation
 
 public struct CampaignData {
     public let source: String?

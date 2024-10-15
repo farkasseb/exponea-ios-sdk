@@ -7,7 +7,7 @@
 //
 
 import WebKit
-import UIKit
+public import UIKit
 import Combine
 
 open class CarouselInAppContentBlockView: UIView {

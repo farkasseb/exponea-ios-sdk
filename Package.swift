@@ -1,4 +1,4 @@
-// swift-tools-version:5.9
+// swift-tools-version:6.0
 
 import PackageDescription
 
@@ -26,10 +26,7 @@ let package = Package(
             dependencies: ["ExponeaSDKShared", "ExponeaSDKObjC"],
             path: "ExponeaSDK/ExponeaSDK",
             exclude: ["Supporting Files/Info.plist"],
-            resources: [.copy("Supporting Files/PrivacyInfo.xcprivacy")],
-            swiftSettings: [
-                .enableExperimentalFeature("AccessLevelOnImport")
-            ]
+            resources: [.copy("Supporting Files/PrivacyInfo.xcprivacy")]
         ),
         // Notification extension library
         .target(
@@ -53,5 +50,23 @@ let package = Package(
             path: "ExponeaSDK/ExponeaSDKObjC",
             exclude: ["Info.plist"],
             publicHeadersPath: ".")
-    ]
+    ],
+    swiftLanguageModes: [.v5]
 )
+
+// MARK: - Make all imports internal by default
+extension Target {
+    func addInternalImportsByDefaultFlag() -> Target {
+        let newTarget = self
+        newTarget.swiftSettings = (newTarget.swiftSettings ?? []) + [.enableUpcomingFeature("InternalImportsByDefault")]
+        return newTarget
+    }
+}
+
+package.targets = package.targets.map {
+    if $0.type != .binary {
+        return $0.addInternalImportsByDefaultFlag()
+    } else {
+        return $0
+    }
+}

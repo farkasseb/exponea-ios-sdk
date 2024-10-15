@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CoreData
+public import CoreData
 
 extension NSPersistentContainer {
 

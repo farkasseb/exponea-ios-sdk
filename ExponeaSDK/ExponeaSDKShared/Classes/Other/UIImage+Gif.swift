@@ -25,7 +25,7 @@
  SOFTWARE.
  */
 
-import UIKit
+public import UIKit
 
 extension UIImage {
     public class func gif(data: Data) -> UIImage? {

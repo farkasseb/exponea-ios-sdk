@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import UIKit
+public import UIKit
 
 public protocol AppInboxProvider {
     func getAppInboxButton() -> UIButton

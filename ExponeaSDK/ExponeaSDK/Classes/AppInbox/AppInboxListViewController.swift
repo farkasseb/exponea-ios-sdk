@@ -1,6 +1,6 @@
 import CoreData
 import Foundation
-import UIKit
+public import UIKit
 import WebKit
 
 open class AppInboxListViewController: UIViewController {

@@ -8,7 +8,7 @@
 
 import Foundation
 import UserNotifications
-import UIKit
+public import UIKit
 
 /// Protocol of what types of events are available in the Exponea SDK.
 public protocol ExponeaType: AnyObject {

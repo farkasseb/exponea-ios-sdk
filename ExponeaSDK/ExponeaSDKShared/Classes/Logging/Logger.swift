@@ -6,7 +6,7 @@
 //  Copyright © 2018 Exponea. All rights reserved.
 //
 
-import Foundation
+public import Foundation
 
 /// A logger class used to log errors, warnings and other debug information. This class can be subclassed
 /// and the logging behaviour changed as you wish. By default it prints everything to the console.

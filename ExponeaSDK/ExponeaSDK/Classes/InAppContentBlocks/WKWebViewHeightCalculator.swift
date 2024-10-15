@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import WebKit
+public import WebKit
 import UIKit
 
 public final class WKWebViewHeightCalculator: WKWebView, WKNavigationDelegate {

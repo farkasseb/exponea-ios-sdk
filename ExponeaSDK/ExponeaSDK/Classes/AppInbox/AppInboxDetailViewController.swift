@@ -7,8 +7,8 @@
 //
 
 import Foundation
-import UIKit
-import WebKit
+public import UIKit
+public import WebKit
 
 open class AppInboxDetailViewController: UIViewController, WKUIDelegate {
 

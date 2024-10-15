@@ -6,7 +6,7 @@
 //  Copyright © 2019 Exponea. All rights reserved.
 //
 
-import Foundation
+public import Foundation
 
 public struct InAppMessage: Codable, Equatable {
     public let id: String

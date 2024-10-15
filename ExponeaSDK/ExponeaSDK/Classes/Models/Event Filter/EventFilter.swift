@@ -6,7 +6,7 @@
 //  Copyright © 2020 Exponea. All rights reserved.
 //
 
-import Foundation
+public import Foundation
 
 public struct EventFilterEvent {
     let eventType: String

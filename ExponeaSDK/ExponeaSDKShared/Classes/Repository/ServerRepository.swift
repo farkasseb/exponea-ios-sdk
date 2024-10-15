@@ -6,7 +6,7 @@
 //  Copyright © 2018 Exponea. All rights reserved.
 //
 
-import Foundation
+public import Foundation
 
 /// The Server Repository class is responsible to manage all the requests for the Exponea API.
 public final class ServerRepository {

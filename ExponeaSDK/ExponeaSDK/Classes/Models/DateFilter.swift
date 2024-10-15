@@ -6,7 +6,7 @@
 //  Copyright © 2018 Exponea. All rights reserved.
 //
 
-import Foundation
+public import Foundation
 
 public struct DateFilter: Codable, Equatable {
     public let enabled: Bool

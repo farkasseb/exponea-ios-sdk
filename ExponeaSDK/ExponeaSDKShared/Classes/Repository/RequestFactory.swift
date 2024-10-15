@@ -6,7 +6,7 @@
 //  Copyright © 2018 Exponea. All rights reserved.
 //
 
-import Foundation
+public import Foundation
 
 /// Path route with projectId
 public struct RequestFactory {

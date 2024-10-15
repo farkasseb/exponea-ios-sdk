@@ -6,7 +6,7 @@
 //  Copyright © 2018 Exponea. All rights reserved.
 //
 
-import Foundation
+public import Foundation
 
 public struct NotificationData: Codable {
     public let attributes: [String: JSONValue]

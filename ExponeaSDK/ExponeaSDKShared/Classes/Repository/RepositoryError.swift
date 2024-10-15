@@ -6,7 +6,7 @@
 //  Copyright © 2018 Exponea. All rights reserved.
 //
 
-import Foundation
+public import Foundation
 
 public protocol ErrorInitialisable: Error {
     static func create(from error: Error) -> Self

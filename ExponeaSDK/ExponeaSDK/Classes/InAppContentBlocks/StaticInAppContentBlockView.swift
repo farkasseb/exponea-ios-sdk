@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import WebKit
+public import WebKit
 
 public final class StaticInAppContentBlockView: UIView, WKNavigationDelegate {
 

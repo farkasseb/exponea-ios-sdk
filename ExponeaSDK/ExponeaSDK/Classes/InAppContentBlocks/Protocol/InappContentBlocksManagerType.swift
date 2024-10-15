@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import WebKit
+public import WebKit
 import Foundation
 
 public protocol InAppContentBlocksManagerType {

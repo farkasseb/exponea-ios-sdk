@@ -5,7 +5,7 @@
 //  Created by Ankmara on 29.05.2023.
 //  Copyright © 2023 Exponea. All rights reserved.
 //
-import Foundation
+public import Foundation
 
 public enum InAppContentBlocksStatus: String, Codable {
     case ok = "OK"

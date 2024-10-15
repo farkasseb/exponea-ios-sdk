@@ -6,7 +6,7 @@
 //  Copyright © 2018 Exponea. All rights reserved.
 //
 
-import Foundation
+public import Foundation
 
 /// Data types that thrown the possible errors while trying to save data into coredata.
 ///

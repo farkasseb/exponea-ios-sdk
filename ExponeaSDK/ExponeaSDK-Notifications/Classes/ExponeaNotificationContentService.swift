@@ -7,8 +7,9 @@
 //
 
 import Foundation
-import UserNotifications
+public import UserNotifications
 import UserNotificationsUI
+public import UIKit
 #if canImport(ExponeaSDKShared)
 import ExponeaSDKShared
 #endif

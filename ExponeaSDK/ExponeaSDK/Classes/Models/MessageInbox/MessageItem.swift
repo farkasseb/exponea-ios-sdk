@@ -6,7 +6,7 @@
 //  Copyright © 2022 Exponea. All rights reserved.
 //
 
-import Foundation
+public import Foundation
 
 public struct MessageItem: Codable, Equatable {
 

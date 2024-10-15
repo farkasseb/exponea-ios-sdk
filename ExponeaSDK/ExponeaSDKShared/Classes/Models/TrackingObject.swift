@@ -6,7 +6,7 @@
 //  Copyright © 2020 Exponea. All rights reserved.
 //
 
-import Foundation
+public import Foundation
 
 public protocol TrackingObject {
     var exponeaProject: ExponeaProject { get }
